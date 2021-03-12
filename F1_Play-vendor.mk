@@ -18,24 +18,60 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/umidigi/
 
 PRODUCT_COPY_FILES += \
+    vendor/umidigi/F1_Play/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
     vendor/umidigi/F1_Play/proprietary/bin/nfcstackp:$(TARGET_COPY_OUT_SYSTEM)/bin/nfcstackp \
+    vendor/umidigi/F1_Play/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
     vendor/umidigi/F1_Play/proprietary/etc/nfcee_access.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/nfcee_access.xml \
+    vendor/umidigi/F1_Play/proprietary/framework/mediatek-ims-extension-plugin.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-extension-plugin.jar \
+    vendor/umidigi/F1_Play/proprietary/framework/mediatek-ims-legacy.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-legacy.jar \
     vendor/umidigi/F1_Play/proprietary/etc/permissions/com.st.android.nfc_dta_extensions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.st.android.nfc_dta_extensions.xml \
     vendor/umidigi/F1_Play/proprietary/etc/permissions/com.st.android.nfc_extensions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.st.android.nfc_extensions.xml \
     vendor/umidigi/F1_Play/proprietary/lib/libdtaNfaProvider.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdtaNfaProvider.so \
+    vendor/umidigi/F1_Play/proprietary/lib/libmtkaudio_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkaudio_utils.so \
+    vendor/umidigi/F1_Play/proprietary/lib/libmtkavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkavenhancements.so \
+    vendor/umidigi/F1_Play/proprietary/lib/libmtklimiter.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtklimiter.so \
+    vendor/umidigi/F1_Play/proprietary/lib/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkperf_client.so \
+    vendor/umidigi/F1_Play/proprietary/lib/libmtk_vt_service.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtk_vt_service.so \
+    vendor/umidigi/F1_Play/proprietary/lib/libmtkshifter.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkshifter.so \
+    vendor/umidigi/F1_Play/proprietary/lib/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtk_vt_wrapper.so \
+    vendor/umidigi/F1_Play/proprietary/lib/libfmjni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfmjni.so \
+    vendor/umidigi/F1_Play/proprietary/lib/libfmcust.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfmcust.so \
     vendor/umidigi/F1_Play/proprietary/lib/libicuXD.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libicuXD.so \
     vendor/umidigi/F1_Play/proprietary/lib/libnfc_st_dta.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libnfc_st_dta.so \
     vendor/umidigi/F1_Play/proprietary/lib/libnfc_st_dta_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libnfc_st_dta_jni.so \
     vendor/umidigi/F1_Play/proprietary/lib/libstnfc-nci.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstnfc-nci.so \
     vendor/umidigi/F1_Play/proprietary/lib/libstnfc_nci_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstnfc_nci_jni.so \
+    vendor/umidigi/F1_Play/proprietary/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/umidigi/F1_Play/proprietary/lib64/libdtaNfaProvider.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdtaNfaProvider.so \
+    vendor/umidigi/F1_Play/proprietary/lib64/libfmjni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfmjni.so \
+    vendor/umidigi/F1_Play/proprietary/lib64/libfmcust.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfmcust.so \
     vendor/umidigi/F1_Play/proprietary/lib64/libicuXD.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libicuXD.so \
     vendor/umidigi/F1_Play/proprietary/lib64/libnfc_st_dta.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libnfc_st_dta.so \
     vendor/umidigi/F1_Play/proprietary/lib64/libnfc_st_dta_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libnfc_st_dta_jni.so \
     vendor/umidigi/F1_Play/proprietary/lib64/libstnfc-nci.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstnfc-nci.so \
-    vendor/umidigi/F1_Play/proprietary/lib64/libstnfc_nci_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstnfc_nci_jni.so
-
+    vendor/umidigi/F1_Play/proprietary/lib64/libstnfc_nci_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstnfc_nci_jni.so  \
+    vendor/umidigi/F1_Play/proprietary/lib64/libmtkadpcmextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkadpcmextractor.so \
+    vendor/umidigi/F1_Play/proprietary/lib64/libmtkalacextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkalacextractor.so \
+    vendor/umidigi/F1_Play/proprietary/lib64/libmtkapeextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkapeextractor.so \
+    vendor/umidigi/F1_Play/proprietary/lib64/libmtkasfextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkasfextractor.so \
+      vendor/umidigi/F1_Play/proprietary/lib64/libmtkaudio_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkaudio_utils.so \
+      vendor/umidigi/F1_Play/proprietary/lib64/libmtkavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkavenhancements.so \
+    vendor/umidigi/F1_Play/proprietary/lib64/libmtkaviextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkaviextractor.so \
+    vendor/umidigi/F1_Play/proprietary/lib64/libmtkflvextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkflvextractor.so \
+    vendor/umidigi/F1_Play/proprietary/lib64/libmtkmkvextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkmkvextractor.so  \
+     vendor/umidigi/F1_Play/proprietary/lib64/libmtklimiter.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtklimiter.so \
+     vendor/umidigi/F1_Play/proprietary/lib64/libmtkmp3extractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkmp3extractor.so \
+         vendor/umidigi/F1_Play/proprietary/lib64/libmtkmpeg2extractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkmpeg2extractor.so \
+    vendor/umidigi/F1_Play/proprietary/lib64/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkperf_client.so  \
+     vendor/umidigi/F1_Play/proprietary/lib64/libmtkshifter.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkshifter.so \
+     vendor/umidigi/F1_Play/proprietary/lib64/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk_vt_wrapper.so \
+     vendor/umidigi/F1_Play/proprietary/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 PRODUCT_PACKAGES += \
+    ImsService \
     Nfc_st \
     com.st.android.nfc_dta_extensions \
-    com.st.android.nfc_extensions
+    com.st.android.nfc_extensions \
+    mediatek-common \
+    mediatek-framework \
+    mediatek-ims-base \
+    mediatek-ims-common \
