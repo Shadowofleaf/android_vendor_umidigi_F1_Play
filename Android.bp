@@ -19,26 +19,6 @@
 soong_namespace {
 }
 
-android_app_import {
-	name: "Nfc_st",
-	owner: "umidigi",
-	apk: "proprietary/app/Nfc_st/Nfc_st.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-android_app_import {
-	name: "ImsService",
-	owner: "umidigi",
-	apk: "proprietary/priv-app/ImsService/ImsService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
 dex_import {
 	name: "mediatek-common",
 	owner: "umidigi",
@@ -80,16 +60,3 @@ dex_import {
 	owner: "umidigi",
 	jars: ["proprietary/framework/mediatek-telephony-common.jar"],
 }
-
-dex_import {
-	name: "com.st.android.nfc_dta_extensions",
-	owner: "umidigi",
-	jars: ["proprietary/framework/com.st.android.nfc_dta_extensions.jar"],
-}
-
-dex_import {
-	name: "com.st.android.nfc_extensions",
-	owner: "umidigi",
-	jars: ["proprietary/framework/com.st.android.nfc_extensions.jar"],
-}
-

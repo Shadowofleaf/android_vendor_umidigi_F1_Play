@@ -16,6 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter F1_Play,$(TARGET_DEVICE)),)
+ifneq ($(filter F1,$(TARGET_DEVICE)),)
 
 endif
