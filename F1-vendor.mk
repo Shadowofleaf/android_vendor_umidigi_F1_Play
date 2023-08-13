@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/F1/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
     vendor/umidigi/F1/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
     vendor/umidigi/F1/proprietary/lib/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libshowlogo.so \
+    vendor/umidigi/F1/proprietary/lib/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsysenv_system.so \
     vendor/umidigi/F1/proprietary/lib/libdtaNfaProvider.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdtaNfaProvider.so \
     vendor/umidigi/F1/proprietary/lib/libicuXD.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libicuXD.so \
     vendor/umidigi/F1/proprietary/lib64/libdtaNfaProvider.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdtaNfaProvider.so \
